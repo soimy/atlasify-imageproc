@@ -1,0 +1,18 @@
+{
+  "name": "atlasify-imageproc",
+  "version": "0.1.0",
+  "description": "Minimized Rust image processing module for Atlasify",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soimy/atlasify-imageproc"
+  },
+  "author": "Shen Yiming <soimy@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.2.0"
+  },
+  "scripts": {
+    "install": "neon build"
+  }
+}

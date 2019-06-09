@@ -1,0 +1,17 @@
+[package]
+name = "atlasify-imageproc"
+version = "0.1.0"
+authors = ["Shen Yiming <soimy@163.com>"]
+license = "MIT"
+build = "build.rs"
+exclude = ["artifacts.json", "index.node"]
+
+[lib]
+name = "atlasify_imageproc"
+crate-type = ["dylib"]
+
+[build-dependencies]
+neon-build = "0.2.0"
+
+[dependencies]
+neon = { git = "https://github.com/kjvalencik/neon.git", branch = "node12" }

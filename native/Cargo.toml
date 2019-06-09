@@ -15,3 +15,9 @@ neon-build = "0.2.0"
 
 [dependencies]
 neon = { git = "https://github.com/kjvalencik/neon.git", branch = "node12" }
+png = "0.14.1"
+byteorder = "1.2.1"
+num-iter = "0.1.32"
+num-rational = { version = "0.2.1", default-features = false }
+num-traits = "0.2.0"
+lzw = "0.10.0"
